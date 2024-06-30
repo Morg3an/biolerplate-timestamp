@@ -68,7 +68,9 @@ console.log(generateTimestamp('MMMM Do YYYY, h:mm:ss a')); // Outputs: June 29th
 
 # Specific Time Zone
 ```javascript
-
+const { generateTimestamp } = require('./timestamp');
+console.log(generateTimestamp('YYYY-MM-DD HH:mm:ss', 'America/New_York')); // Outputs: 2024-06-29 08:34:56
+```
 
 ## Contributing
 
